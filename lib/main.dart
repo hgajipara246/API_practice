@@ -1,4 +1,4 @@
-import 'package:api_practice/view/screens/home_screen.dart';
+import 'package:api_practice/view/screens/breweries_Screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.purpleAccent),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightGreen),
       ),
-      home: const HomeScreen(),
+      home: const BreweriesScreen(),
     );
   }
 }
