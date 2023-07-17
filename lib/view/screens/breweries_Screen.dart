@@ -133,6 +133,7 @@ class _BreweriesScreenState extends State<BreweriesScreen> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.purple,
         onPressed: () => getUserData(),
         child: IconButton(
           icon: const Icon(Icons.download),
